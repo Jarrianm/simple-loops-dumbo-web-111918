@@ -1,8 +1,9 @@
 # REMEMBER: print your output to the terminal using 'puts'
 
 def loop_iterator(number_of_times)
-  loop do 
+  loop do
     puts "Welcome to Flatiron School's Web Development Course!"
+    break if counter  == "#{number_of_times}"
 
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer
